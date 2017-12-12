@@ -1,3 +1,4 @@
+import { CalculatorPage } from '../calculator/calculator'
 import { Component } from '@angular/core';
 
 import { AboutPage } from '../about/about';
@@ -7,7 +8,8 @@ import { AboutPage } from '../about/about';
 })
 export class TabsPage {
 
-  tab2Root = AboutPage;
+  calculatorTab = CalculatorPage;
+  aboutTab = AboutPage;
 
   constructor() {
 
