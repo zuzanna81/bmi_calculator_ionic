@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage } from 'ionic-angular';
 
 /**
  * Generated class for the CalculatorPage page.
@@ -14,12 +14,13 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'calculator.html',
 })
 export class CalculatorPage {
+  height: number;
+  weight: number;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor() {
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad CalculatorPage');
-  }
+  calculateBMI() {
 
+  }
 }
