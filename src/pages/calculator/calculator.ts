@@ -12,8 +12,18 @@ export class CalculatorPage {
   weight: number;
   bmiValue: number;
   bmiMessage: string;
+  imperial: boolean = false;
 
   constructor() {
+  }
+
+  calculate() {
+    if (this.imperial) {
+      this.calculateBMIImp();
+    }
+    else {
+      this.calculateBMI();
+    }
   }
 
   calculateBMI() {
