@@ -17,7 +17,7 @@ export class CalculatorPage {
   height: number;
   weight: number;
   bmiValue: number;
-  bmiMessage: number;
+  bmiMessage: string;
 
   constructor() {
   }
