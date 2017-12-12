@@ -1,18 +1,12 @@
 import { Component } from '@angular/core';
 import { IonicPage } from 'ionic-angular';
 
-/**
- * Generated class for the CalculatorPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
   selector: 'page-calculator',
   templateUrl: 'calculator.html',
 })
+
 export class CalculatorPage {
   height: number;
   weight: number;
@@ -30,6 +24,14 @@ export class CalculatorPage {
     }
   }
 
+  calculateBMIImp() {
+    if (this.weight > 0 && this.height > 0) {
+      let finalBmi = (this.weight * 703) / (this.height * this.height);
+      this.bmiValue = parseFloat(finalBmi.toFixed(2));
+      this.setBMIMessage();
+    }
+  }
+
   private setBMIMessage() {
     if (this.bmiValue < 18.5) {
       this.bmiMessage = "Underweight"
@@ -40,7 +42,7 @@ export class CalculatorPage {
     }
 
     if (this.bmiValue > 25 && this.bmiValue < 30) {
-      thisbmiMessage = "Overweight"
+      this.bmiMessage = "Overweight"
     }
 
     if (this.bmiValue > 30) {
