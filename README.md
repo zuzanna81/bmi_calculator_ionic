@@ -170,6 +170,13 @@ private setBMIMessage() {
 
 ## How to view your Ionic App on your device?
 
+1. Create an account on Ionic Pro webpage (https://dashboard.ionicjs.com/login)
+* Create an App (you can do it from your terminal as well, see step 3)
+2. Download Ionic View (with the blue icon) from AppStore or Google Play
+3. In your terminal run `ionic link` and answer the questions
+4. Run `git push ionic master`
+5. Update Ionic View on your phone (press to open, shake the phone to close app)
+
 **Resources**
 
 CraftAcademy course material (week 7)
