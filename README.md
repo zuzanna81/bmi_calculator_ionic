@@ -30,7 +30,7 @@ The purpose of this assignment is to build a mobile version of the BMI Calculato
 5. Delete `tab1Root`and `tab3Root`from **src/pages/tabs.html**
 6. Add, commit and push your changes to GitHub
 
-## How to build some basic functionality in the ionic application?
+## How to build some basic functionality in the Ionic application?
 
 **Adding a page**
 1. Run `ionic g page calculator`
@@ -167,6 +167,8 @@ private setBMIMessage() {
   </ion-card>
 </ion-content> <!-- this line is just here to indicate where to type the following block -->
 ```
+
+## How to view your Ionic App on your device?
 
 **Resources**
 
