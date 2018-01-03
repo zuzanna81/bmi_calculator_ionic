@@ -38,7 +38,7 @@ The purpose of this assignment is to build a mobile version of the BMI Calculato
 ```
 import { CalculatorPage } from '../pages/calculator/calculator'
 ```
-3. Add `CalculatorPage` to the `declarations` and `entryComponents` properties
+* Add `CalculatorPage` to the `declarations` and `entryComponents` properties too
 4. In **src/pages/tabs/tabs.ts** import `CalculatorPage`, add:
 ```
 // Add import statement at top of the file
@@ -81,7 +81,8 @@ export class TabsPage {
   <button block ion-button (click)="calculateBMI()">Calculate</button>
 </div>
 ```
-2. In **scr/pages/calculator/calculator.ts** create 2 variables:
+2. In **scr/pages/calculator/calculator.ts**:
+* create 2 variables:
 ```
 // src/pages/calculator/calculator.ts
 // Edit your file to have the following code
@@ -106,7 +107,7 @@ export class CalculatorPage {
   }
 }
 ```
-3. In **src/pages/calculator/calculator.ts** add 2 extra variables:
+* add 2 extra variables in:
 ```
 export class CalculatorPage {
   ...
@@ -116,7 +117,7 @@ export class CalculatorPage {
   ...
 }
 ```
-4. On the same page, add the following implementation of the **calculateBMI** function:
+4. and add the following implementation of the **calculateBMI** function:
 ```
 ...
 
