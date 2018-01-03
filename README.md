@@ -39,7 +39,7 @@ The purpose of this assignment is to build a mobile version of the BMI Calculato
 import { CalculatorPage } from '../pages/calculator/calculator'
 ```
 * Add `CalculatorPage` to the `declarations` and `entryComponents` properties too
-4. In **src/pages/tabs/tabs.ts** import `CalculatorPage`, add:
+3. In **src/pages/tabs/tabs.ts** import `CalculatorPage`, add:
 ```
 // Add import statement at top of the file
 import { CalculatorPage } from '../calculator/calculator'
@@ -51,7 +51,7 @@ export class TabsPage {
   ...
 }
 ```
-5. Edit **tabs.html** template, modify the file:
+4. Edit **tabs.html** template, modify the file:
 ```
 <!-- Your tabs.html file content should be updated to the following -->
 <ion-tabs>
@@ -117,7 +117,7 @@ export class CalculatorPage {
   ...
 }
 ```
-4. and add the following implementation of the **calculateBMI** function:
+3. and add the following implementation of the **calculateBMI** function:
 ```
 ...
 
@@ -150,7 +150,7 @@ private setBMIMessage() {
 
 ...
 ```
-5. Add the following snippet to **src/pages/calculator/calculator.html**:
+4. Add the following snippet to **src/pages/calculator/calculator.html**:
 ```
 <ion-content> <!-- this line is just here to indicate where to type the following block -->
   ...
